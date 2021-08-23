@@ -1,5 +1,5 @@
 current directory: /media/mauricio/6CF6FE466D2EC6E2/mind-app/vendor/bundle/ruby/2.7.0/gems/pg-1.2.3/ext
-/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210822-46108-3qmbi4.rb extconf.rb
+/home/mauricio/.rbenv/versions/2.7.2/bin/ruby -I /home/mauricio/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210822-69092-5mr1wp.rb extconf.rb
 checking for pg_config... yes
 Using config values from /usr/bin/pg_config
 checking for libpq-fe.h... yes
@@ -50,4 +50,4 @@ linking shared-object pg_ext.so
 
 current directory: /media/mauricio/6CF6FE466D2EC6E2/mind-app/vendor/bundle/ruby/2.7.0/gems/pg-1.2.3/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 pg_ext.so ./.gem.20210822-46108-1vm4nrt
+/usr/bin/install -c -m 0755 pg_ext.so ./.gem.20210822-69092-1ap45ss

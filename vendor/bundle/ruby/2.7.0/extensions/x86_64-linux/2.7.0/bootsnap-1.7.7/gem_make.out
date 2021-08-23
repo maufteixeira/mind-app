@@ -1,5 +1,5 @@
 current directory: /media/mauricio/6CF6FE466D2EC6E2/mind-app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.7/ext/bootsnap
-/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210822-46108-9y3qvd.rb extconf.rb
+/home/mauricio/.rbenv/versions/2.7.2/bin/ruby -I /home/mauricio/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210822-69092-1rpa6fe.rb extconf.rb
 creating Makefile
 
 current directory: /media/mauricio/6CF6FE466D2EC6E2/mind-app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.7/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.so
 
 current directory: /media/mauricio/6CF6FE466D2EC6E2/mind-app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.7/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210822-46108-ny81fg/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210822-69092-14eitrx/bootsnap
