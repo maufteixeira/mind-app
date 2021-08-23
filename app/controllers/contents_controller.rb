@@ -5,6 +5,10 @@ class ContentsController < ApplicationController
     @contents= current_user.contents
   end
 
+  def show
+    @content = Content.find(params[:id])
+  end
+  
   def new
     @content = Content.new
   end
@@ -24,7 +28,13 @@ class ContentsController < ApplicationController
   end
 
   def update
-
+    @content = Content.find(params[:id])
+    
+    if @content.update(content_params)
+      redirect_to contents_path, notice: 'Content sucessfully updated!'
+    else
+      render :edit
+    end
   end
 
   private
