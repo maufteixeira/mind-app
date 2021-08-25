@@ -14,7 +14,6 @@ class ContentsController < ApplicationController
 
   def create
     @content = current_user.contents.build(content_params)
-
     if @content.save
       associate_tags! 
       redirect_to contents_path, notice: 'Content sucessfully created!'

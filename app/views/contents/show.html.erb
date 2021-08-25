@@ -3,3 +3,6 @@
 <p>
   <%= @content.description %>
 </p>
+<p>
+  <%= @content.tags.pluck(:name).join(', ') %>
+</p>
