@@ -4,5 +4,5 @@ class Content < ApplicationRecord
   validates :title, :description, presence: true
 
   has_many :tag_contents, dependent: :destroy
-  has_many :tags, through: :tag_contents2
+  has_many :tags, through: :tag_contents
 end
