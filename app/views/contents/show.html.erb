@@ -1,7 +1,7 @@
 <h1><%= @content.title %></h1>
 
 <p>
-  <%= @content.description %>
+  <%= raw @markdown.render(@content.description) %>
 </p>
 <p>
   <%= @content.tags.pluck(:name).join(', ') %>
