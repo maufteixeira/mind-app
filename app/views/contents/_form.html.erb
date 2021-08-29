@@ -19,7 +19,7 @@
     <%= form.label :tags %>
     <%= form.select :tags, options_for_select(current_user.tags.pluck(:name), content.tags.pluck(:name)), {}, { class: 'select2 form-control', multiple: 'multiple' } %>
   </div>
-
+  <br>
   <div class='actions'>
     <%= form.submit 'Save', class: 'btn btn-primary' %>
   </div>
